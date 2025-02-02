@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streamlit-image-tagging"
+version = "0.1.0"
+description = "To manually associate tags to images for image classification"
+authors = ["Ismael EL ATIFI"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.39.0"
+streamlit-shortcuts = "^0.1.9"
+pyyaml = "^6.0.2"
+loguru = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
